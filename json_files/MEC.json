@@ -1,0 +1,533 @@
+[
+    {
+        "sigle": "AER600",
+        "name": "Introduction à l'aérospatiale",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ATE029",
+        "name": "Introduction à la modélisation solide avec CATIA",
+        "session1": "J(INT)",
+        "session2": "J(INT)",
+        "session3": "J(INT)",
+        "session4": "J(INT)",
+        "session5": "J(INT)"
+    },
+    {
+        "sigle": "GIA601",
+        "name": "Ergonomie et sécurité en milieu de travail",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "J",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPE450",
+        "name": "Gestion du personnel et relations industrielles",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "GPO602",
+        "name": "Évaluation et contrôle de l'environnement industriel",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPO661",
+        "name": "Gestion et assurance de la qualité",
+        "session1": "S",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC029",
+        "name": "Communication graphique et fabriction mécanique",
+        "session1": "J",
+        "session2": "",
+        "session3": "JS",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC111",
+        "name": "Statique de l'ingénieur",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC129",
+        "name": "Développement de produits assisté par ordinateur",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC200",
+        "name": "Technologie des matériaux",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC222",
+        "name": "Dynamique",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC240",
+        "name": "Thermodynamique",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC300",
+        "name": "Tchnologie de la mise en forme",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC329",
+        "name": "Résistance des matériaux",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC335",
+        "name": "Mécanique des fluides",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC402",
+        "name": "Production et fabrication industrielles",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC423",
+        "name": "Méthode des éléments finis des corps déformables",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC525",
+        "name": "Conception vibratoire et dynamique des structures",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC528",
+        "name": "Éléments de machines",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC532",
+        "name": "Transfert de chaleur",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC546",
+        "name": "Circuits électriques et électrotechniques",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC555",
+        "name": "Analyse des contraintes",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC556",
+        "name": "Aérothermodynamique des écoulements",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC557",
+        "name": "Méthodes expérimentales en thermofluide",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC558",
+        "name": "Introduction à la dynamique des fluides numérique",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC592",
+        "name": "Projets de conception de machines",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC602",
+        "name": "Tolérancement et métrologie tridimensionnelle",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC619",
+        "name": "Mécanique des matériaux composites",
+        "session1": "S",
+        "session2": "",
+        "session3": "J",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC624",
+        "name": "Technologie de la mise en forme",
+        "session1": "",
+        "session2": "S",
+        "session3": "J",
+        "session4": "",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC625",
+        "name": "Technologie du soudage",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC627",
+        "name": "Technologies de fabrication additive",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC628",
+        "name": "Conception de systèmes à fluide sous pression",
+        "session1": "S",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC630",
+        "name": "Ventilation et chauffage",
+        "session1": "S",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC636",
+        "name": "Acoustique industrielle",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC652",
+        "name": "Conception des systèmes manufacturiers",
+        "session1": "S",
+        "session2": "J",
+        "session3": "",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC664",
+        "name": "Optimisation des procédés industriels",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC671",
+        "name": "Design conceptuel des aéronefs",
+        "session1": "S",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC702",
+        "name": "Techniques de maintenance prédictive et fiabilité",
+        "session1": "S",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": "S"
+    },
+    {
+        "sigle": "MEC723",
+        "name": "Fabrication numérique",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC727",
+        "name": "Tribologie",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC728",
+        "name": "Conception et analyse des assemblage",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC729",
+        "name": "Mécanismes et dynamique des machines",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC730",
+        "name": "Climatisation et réfrigération industrielle",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC733",
+        "name": "Gestion d'énergie dans les bâtiments",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC735",
+        "name": "Conception intégrée des systèmes mécaniques dans les bâtiments",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC737",
+        "name": "Moteurs alternatifs à combustion interne",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC741",
+        "name": "Robotique",
+        "session1": "S",
+        "session2": "J",
+        "session3": "",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC743",
+        "name": "Instrumentation et contrôle des procédés industriels",
+        "session1": "S",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC754",
+        "name": "Optimisation en production manufacturière",
+        "session1": "",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC755",
+        "name": "Gestion des projets industriels avancée",
+        "session1": "",
+        "session2": "S",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC757",
+        "name": "Introduction à l'aérodynamique",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC758",
+        "name": "Systèmes de propulsion : Thermopropulsion et turbomachines",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC761",
+        "name": "Essais mécaniques et contrôle non destructif",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC781",
+        "name": "Méthodes d'usinage avancées",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC785",
+        "name": "Méthodologie de conception pour la fabrication et l'assemblage",
+        "session1": "S",
+        "session2": "",
+        "session3": "S",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC786",
+        "name": "Mise en forme de polymères et composites",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "MEC788",
+        "name": "Mécatronique",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MEC791",
+        "name": "Projets spéciaux",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "MEC795",
+        "name": "Projet de fin d'études en mécanique",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    }
+]

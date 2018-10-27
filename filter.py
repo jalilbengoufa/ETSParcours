@@ -1,7 +1,9 @@
 #!/usr/bin/env python
-import os,csv
+
+import os,csv,json
 localFilesPath = os.getcwd()+'/csv_files/generated/'
 localFilesPathMerged = os.getcwd()+'/csv_files/merged/'
+
 ##merge files 
 os.system('sed 1d '+localFilesPath+'*LOG.csv > '+localFilesPathMerged+'LOG.csv')
 os.system('sed 1d '+localFilesPath+'*CTN.csv > '+localFilesPathMerged+'CTN.csv')
@@ -30,3 +32,22 @@ for filename in os.listdir(localFilesPathMerged):
             if (rowWrite[0] != 'COURS' and rowWrite[0][0] != 'T' and rowWrite[0][0] != 'S' and rowWrite[0][0] != 'J'  
                 and len(rowWrite) == 7 and  rowWrite[1] != '' ):
                 writer.writerow(rowWrite)           
+
+#Convert csv data into json 
+def to_json(data, json_file, format):
+    with open(json_file, "w") as f:
+            f.write(json.dumps(data, sort_keys=False, indent=4, separators=(',', ': '),ensure_ascii=False))
+            
+##convert csv files to json objects
+for filename in os.listdir(localFilesPathMerged):
+    if filename.endswith(".csv"):
+        csv_rows = []
+        with open(localFilesPathMerged+filename) as csvfile:
+            reader = csv.DictReader(csvfile)
+            title = reader.fieldnames
+            for row in reader:
+                csv_rows.extend([{title[i]:row[title[i]] for i in range(len(title))}])
+            to_json(csv_rows, os.getcwd()+'/json_files/'+filename[:-4]+'.json', format)
+
+
+

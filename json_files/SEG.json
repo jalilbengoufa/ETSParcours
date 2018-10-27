@@ -1,0 +1,416 @@
+[
+    {
+        "sigle": "ANG010",
+        "name": "Anglais pour ingénieurs I",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ANG020",
+        "name": "Anglais pour ingénieurs II",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ATE050",
+        "name": "Ateliers «réussir en génie»",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "CHM131",
+        "name": "Chimie et matériaux (ancien CHM101)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "COM110",
+        "name": "Méthodes de communication",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "COM115",
+        "name": "Communication interculturelle",
+        "session1": "JS",
+        "session2": "",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": ""
+    },
+    {
+        "sigle": "COM129",
+        "name": "Méthodes de communication en génie mécanique",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "J",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "COM800",
+        "name": "Communication technique",
+        "session1": "S",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ENT201",
+        "name": "Gestion financière d'entreprise",
+        "session1": "JS",
+        "session2": "S",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "S"
+    },
+    {
+        "sigle": "ENT202",
+        "name": "Introduction à l'entrepreneurship",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "ENT601",
+        "name": "Marketing et ventes",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ENT602",
+        "name": "Direction d'entreprise",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ESP010",
+        "name": "Espagnol I",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "ESP020",
+        "name": "Espagnol II",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "FRA150",
+        "name": "Français écrit (3 cr.)",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "FRA151",
+        "name": "Français écrit (4 cr.)",
+        "session1": "S",
+        "session2": "",
+        "session3": "S",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "FRA800",
+        "name": "Français élémentaire",
+        "session1": "J",
+        "session2": "J",
+        "session3": "S",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GIA400",
+        "name": "Analyse de rentabilité de projets",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "GIA410",
+        "name": "Gestion et économie des projets d'ingénierie",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "GIA450",
+        "name": "Planification et contrôle de projets",
+        "session1": "S",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "GPO605",
+        "name": "Entrepreneuriat et innovation",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "INF111",
+        "name": "Programmation orientée-objet (ancien INF010)",
+        "session1": "J",
+        "session2": "J*S*",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J*S*"
+    },
+    {
+        "sigle": "INF130",
+        "name": "Ordinateurs et programmation (ancien INF100)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "INF135",
+        "name": "Introduction à la programmation en génie mécanique (ancien INF105)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "INF145",
+        "name": "Programmation avancée et langage C (INF115)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "J",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "INF155",
+        "name": "Introduction à la programmation (INF125)",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "ING150",
+        "name": "Statique et dynamique (ING120)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "ING160",
+        "name": "Thermodynamique et mécanique des  fluides (ancien ING130)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "ING500",
+        "name": "Outils de développement durable pour l'ingénieur",
+        "session1": "JS",
+        "session2": "S",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "S"
+    },
+    {
+        "sigle": "MAT144",
+        "name": "Introduction aux mathématiques du génie(ancien MAT114)",
+        "session1": "JS",
+        "session2": "J*S*",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J*S*"
+    },
+    {
+        "sigle": "MAT145",
+        "name": "Calcul différentiel et intégral (ancien MAT115)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MAT165",
+        "name": "Algèbre linéaire et analyse vectorielle(ancien MAT135)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MAT210",
+        "name": "Logique et mathématiques discrètes",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "J",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "MAT265",
+        "name": "Équations différentielles (ancien MAT235)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MAT321",
+        "name": "Statistique et informatique appliqués",
+        "session1": "S",
+        "session2": "",
+        "session3": "J",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "MAT350",
+        "name": "Probabilités et statistiques (ancien MAT320)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "MAT415",
+        "name": "Mathématiques du génie des TI",
+        "session1": "J",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "MAT472",
+        "name": "Algèbre linéaire et géométrie de l'espace",
+        "session1": "J",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "J",
+        "session5": "JS"
+    },
+    {
+        "sigle": "PEP110",
+        "name": "Encadrement de la profession et éthique professionnelle",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "PHY144",
+        "name": "Introduction à la physique du génie (ancien PHY114)",
+        "session1": "JS",
+        "session2": "J*S*",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J*S*"
+    },
+    {
+        "sigle": "PHY332",
+        "name": "Électricité et magnétisme (ancien PHY102/ancien PHY302)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "PHY335",
+        "name": "Physique des ondes (ancien PHY105/ancien PHY305)",
+        "session1": "JS",
+        "session2": "JS",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "JS"
+    },
+    {
+        "sigle": "DST202",
+        "name": "Intégration Science et technologie",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "DST404",
+        "name": "Conception et analyse d'objets techniques",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "DST801",
+        "name": "Initiation à l'univers technologique",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "DST802",
+        "name": "Projet technologique",
+        "session1": "S",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    }
+]

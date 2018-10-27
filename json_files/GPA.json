@@ -1,0 +1,362 @@
+[
+    {
+        "sigle": "GPA141",
+        "name": "Automates programmables",
+        "session1": "J",
+        "session2": "S",
+        "session3": "JS",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA205",
+        "name": "Conception de systèmes de production",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA210",
+        "name": "Éléments de fabrication mécanique",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA220",
+        "name": "Analyse des circuits électriques",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA305",
+        "name": "Éléments de résistance des matériaux",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA325",
+        "name": "Introduction à l'électronique",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA430",
+        "name": "Technique d'optimisation en production automatisée",
+        "session1": "S",
+        "session2": "J",
+        "session3": "J",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA434",
+        "name": "Système d'exploitation et programmation de systèmes(Ancien GPA 435 à partir d'hiver 2019)",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA445",
+        "name": "Conception assistée par ordinateur",
+        "session1": "S",
+        "session2": "J",
+        "session3": "J",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA535",
+        "name": "Systèmes asservis",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA546",
+        "name": "Robots industriels",
+        "session1": "J",
+        "session2": "J",
+        "session3": "S",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA548",
+        "name": "Gestion de la production",
+        "session1": "J",
+        "session2": "S",
+        "session3": "S",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA659",
+        "name": "Vision artificielle",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA662",
+        "name": "Modélisation et simulation de systèmes de production",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA664",
+        "name": "Fabrication assistée par ordinateur",
+        "session1": "J",
+        "session2": "",
+        "session3": "J",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA665",
+        "name": "Structures de données et algorithmes",
+        "session1": "S",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA667",
+        "name": "Conception et simulation de circuits électroniques",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA668",
+        "name": "Capteurs et actionneurs",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA725",
+        "name": "Conception assistée par ordinateur de composants aéronautiques",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA730",
+        "name": "Usinage, outillage et inspection pour l'aéronautique",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA735",
+        "name": "Matériaux et procédés de fabrication pour l'aéronautique",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA741",
+        "name": "Systèmes de commande des avions",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA745",
+        "name": "Introduction à l'avionique",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA750",
+        "name": "Ordonnancement des systèmes de production aéronautique",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA754",
+        "name": "Cellules de production robotisée",
+        "session1": "S",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA759",
+        "name": "Réseaux de neurones et intelligence artificielle",
+        "session1": "",
+        "session2": "",
+        "session3": "J",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA770",
+        "name": "Micro-électronique appliquée",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA772",
+        "name": "Conception de machines",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA775",
+        "name": "Base de données",
+        "session1": "",
+        "session2": "S",
+        "session3": "",
+        "session4": "",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA776",
+        "name": "Assurance de la qualité",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA777",
+        "name": "Introduction au génie logiciel",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA782",
+        "name": "Hydraulique et pneumatique",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA783",
+        "name": "Asservissement numérique en temps réel",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA784",
+        "name": "Systèmes flexibles de production",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA785",
+        "name": "Téléinformatique et réseaux",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA786",
+        "name": "Rentabilité de projets d'automatisation",
+        "session1": "",
+        "session2": "S",
+        "session3": "",
+        "session4": "",
+        "session5": "S"
+    },
+    {
+        "sigle": "GPA787",
+        "name": "Microsystèmes",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA788",
+        "name": "Analyse et conception orientées objet(Ancien GPA 789 à partir d'hiver 2019)",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GPA791",
+        "name": "Projets spéciaux",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA793",
+        "name": "Projet de fin d'études en génie de la production automatisée(ancien GPA790) à partir H08 et (ancien GPA792) à partir E17",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    }
+]

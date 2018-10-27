@@ -1,14 +1,25 @@
 # ETSParcours 
 
 
-##update instructions
+### how to update 
 
- - Install dependecie
-    -  python is needed
-    - `pip install camelot` and its dependencies if needed
+require:
+- python (3.5)
 
-- run first script to parse pdf files to csv files ` python parsePDFToCSV.py`
+Python packages:
+- camelot
+- camelot's dependencies, if needed
 
-- make a quick visual verification in the `cs_files/genereted` dir dans make sure the information is well displayed
+### Usage
 
-- run second script the will filter and merge the generated csv file to have a clean output wit ` python filter.py`
+First, run the script to parse the pdf files into a csv files :
+```
+ python parsePDFToCSV.py
+```
+
+Look into the `cs_files/generated` directory to make sure that the parsed files looks fine
+
+After that, run the second script that will filter and merge the generated csv file into a cleaner output and create json files:
+```
+python filter.py
+```
