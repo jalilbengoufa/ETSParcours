@@ -1,0 +1,52 @@
+ELE104,Principes fondamentaux des circuits électriques,,,J,,
+ELE105,Circuits électriques,JS,JS,J,JS,JS
+ELE116,Environnement de développement de logiciels,S,,J,,
+ELE140,Conception des systèmes numériques,J,J,JS,J,J
+ELE200,Circuits électroniques,J,J,JS,J,J
+ELE275,Asservissements linéaires,JS,JS,J,JS,J
+ELE312,Électromagnétisme,JS,JS,JS,JS,JS
+ELE344,Conception et architecture de processeurs (Ancien ELE 343 à partir H19),JS,JS,JS,JS,JS
+ELE355,Électronique de puissance I,S,J,J,S,J
+ELE400,Méthode de design en génie électrique,JS,S,J,JS,S
+ELE413,Ondes électromagnétiques(Ancien ELE 412 à partir H19),J,S,JS,JS,JS
+ELE431,Analyse et conception de circuits analogiques (Ancien ELE 430 à partir H19),JS,J,J,JS,J
+ELE440,Algorithmes,,,J,,
+ELE452,Principes des systèmes de l'aéronautique,,S,,,S
+ELE462,Principes des systèmes de communication,J,JS,J,J,JS
+ELE474,Commande numérique (Ancien ELE 472 à partir H19),J,S,JS,J,S
+ELE543,Principes des systèmes embarqués(Ancien ELE 542 à partir H19),J,S,S,J,J
+ELE550,Machines électriques,J,,S,J,
+ELE641,Systèmes embarqués et normes en aérospatiale,,,S,,
+ELE649,Protocoles et réseaux locaux,,,S,,
+ELE652,Électricité industrielle,,J,,,S
+ELE653,Transport de l'énergie,J,S,,,S
+ELE654,Électronique de puissance II,J,,,J,
+ELE656,Asservissement des machines électriques,J,,,J,
+ELE664,Communication numérique,,,J,,
+ELE666,Traitement numérique des signaux,,,J,,
+ELE667,Hyperfréquences I,,,J,,
+ELE672,Systèmes non linéaires,S,,,J,
+ELE673,Instrumentation industrielle,S,,,S,
+ELE674,Systèmes embarqués avancés,,,J,,
+ELE682,Conception de systèmes numériques à haute vitesse(Ancien ELE 680 à partir H19),S,,,J,
+ELE704,Systèmes de commande de vol Fly-by-wire,,,,,
+ELE732,Traitement parallèle par systèmes ordinés,J,,,J,
+ELE735,Analyse numérique,,S,J,,S
+ELE739,Circuits intégrés programmables (FPGA)(Ancien ELE 740 à partir H19),J,,,J,
+ELE746,Téléinformatique,,,J,,
+ELE747,Analyse et traitement d'images,J,J,,S,J
+ELE749,Conception conjointe matériel – logiciel de systèmes numériques(Ancien ELE 748 à partir H19),,S,,,S
+ELE751,Systèmes de navigation embarqués,,,,,
+ELE752,Appareillage électrique,,,S,,S
+ELE767,Apprentissage machine en intelligence artificielle(Ancien ELE 778 à partir H19),J,,,J,
+ELE771,Dispositifs photoniques,,,J,,
+ELE772,Communications optiques,J,,,J,
+ELE773,Éléments de robotique,,,J,,
+ELE777,Modélisation et identification des systèmes dynamiques,,,J,,
+ELE784,Ordinateurs et programmation systèmes,,,J,,
+ELE785,Systèmes de communi cation sans fil,J,,,J,
+ELE787,Systèmes de transmission,,,,,
+ELE788,Circuits et antennes micro-ondes,J,,,J,
+ELE791,Projets spéciaux,J,J,J,J,J
+ELE795,Projet de fin d'études en génie électrique(ancien ELE792) à paritr H17,J,J,J,J,J
+ELE889,Technologies de l'énergie photovoltaïque,J,S,,J,S
