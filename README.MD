@@ -1,6 +1,5 @@
 # ETSParcours 
 
-
 ### how to update 
 
 require:
@@ -23,3 +22,4 @@ After that, run the second script that will filter and merge the generated csv f
 ```
 python filter.py
 ```
+
