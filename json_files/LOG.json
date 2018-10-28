@@ -1,1 +1,290 @@
-[]
+[
+    {
+        "sigle": "ELE747",
+        "name": "Analyse et traitement d'images",
+        "session1": "J",
+        "session2": "J",
+        "session3": "",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "GPA659",
+        "name": "Vision artificielle",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GTI350",
+        "name": "Conception et évaluation des interfaces utilisateurs",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "GTI610",
+        "name": "Réseaux de télécommunication(remplace LOG610 à partir E13)",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "GTI611",
+        "name": "Réseaux de communication IP(remplace GTI610 à l'H18)",
+        "session1": "S",
+        "session2": "J",
+        "session3": "J",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "GTI619",
+        "name": "Sécurité des systèmes(remplace LOG619 à partir E13)",
+        "session1": "JS",
+        "session2": "S",
+        "session3": "S",
+        "session4": "JS",
+        "session5": "S"
+    },
+    {
+        "sigle": "GTI745",
+        "name": "Interfaces utilisateurs avancées",
+        "session1": "J",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GTI770",
+        "name": "Systèmes intelligents et apprentissage machine",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "GTI785",
+        "name": "Systèmes d'applications mobiles(Commun avec GTI)",
+        "session1": "",
+        "session2": "S",
+        "session3": "",
+        "session4": "",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG100",
+        "name": "Programmation et réseautique en génie logiciel",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG121",
+        "name": "Conception orientée objet(Commun avec GTI)",
+        "session1": "J",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG210",
+        "name": "Analyse et conception de logiciels(Commun avec GTI)",
+        "session1": "JS",
+        "session2": "J",
+        "session3": "J",
+        "session4": "JS",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG240",
+        "name": "Tests et maintenance",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG320",
+        "name": "Structures de données et algorithmes",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG330",
+        "name": "Assurance de la qualité des logiciels",
+        "session1": "S",
+        "session2": "S",
+        "session3": "S",
+        "session4": "S",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG410",
+        "name": "Analyses de besoins et spécifications",
+        "session1": "J",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG430",
+        "name": "Architecture logicielle(Commun avec GTI)",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG515",
+        "name": "Gestion de projets en génie logiciel",
+        "session1": "S",
+        "session2": "S",
+        "session3": "JS",
+        "session4": "S",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG530",
+        "name": "Réingénierie du logiciel",
+        "session1": "J",
+        "session2": "",
+        "session3": "",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG540",
+        "name": "Analyse et conception de logiciels de télécommunications",
+        "session1": "",
+        "session2": "",
+        "session3": "",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG550",
+        "name": "Conception de systèmes informatiques en temps réel",
+        "session1": "S",
+        "session2": "",
+        "session3": "",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG635",
+        "name": "Systèmes intelligents et algorithmes",
+        "session1": "J",
+        "session2": "S",
+        "session3": "JS",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG645",
+        "name": "Architectures de calculs parallèles(Commun avec GTI - ancien LOG640)",
+        "session1": "J",
+        "session2": "S",
+        "session3": "J",
+        "session4": "J",
+        "session5": "S"
+    },
+    {
+        "sigle": "LOG660",
+        "name": "Bases de données de haute performance",
+        "session1": "S",
+        "session2": "J",
+        "session3": "JS",
+        "session4": "S",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG670",
+        "name": "Langages formels et semi-formels",
+        "session1": "J",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG710",
+        "name": "Principes de systèmes d'exploitation et programmation système(Commun avec GTI)",
+        "session1": "S",
+        "session2": "",
+        "session3": "J",
+        "session4": "S",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG720",
+        "name": "Architecture distribuée orientée objet",
+        "session1": "",
+        "session2": "",
+        "session3": "S",
+        "session4": "",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG725",
+        "name": "Ingénierie et conception de jeux vidéo",
+        "session1": "J",
+        "session2": "J",
+        "session3": "",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG735",
+        "name": "Systèmes distribués(Commun avec GTI - ancien LOG730)",
+        "session1": "",
+        "session2": "J",
+        "session3": "",
+        "session4": "",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG750",
+        "name": "Infographie",
+        "session1": "J",
+        "session2": "",
+        "session3": "S",
+        "session4": "J",
+        "session5": ""
+    },
+    {
+        "sigle": "LOG791",
+        "name": "Projets spéciaux en génie logiciel",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    },
+    {
+        "sigle": "LOG795",
+        "name": "Projet de fin d'études en génie logiciel(ancien LOG792)",
+        "session1": "J",
+        "session2": "J",
+        "session3": "J",
+        "session4": "J",
+        "session5": "J"
+    }
+]
