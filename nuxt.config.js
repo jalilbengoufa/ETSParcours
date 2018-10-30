@@ -1,5 +1,9 @@
 const pkg = require('./package')
-
+export default {
+  router: {
+    base: '/ETSParcours/'
+  }
+}
 module.exports = {
   mode: 'universal',
 
@@ -18,10 +22,6 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
-  router: {
-    base: '/ETSParcours/'
-  },
-
 
   /*
   ** Customize the progress-bar color
