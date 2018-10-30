@@ -1,5 +1,13 @@
 const pkg = require('./package')
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/ETSParcours/'
+  }
+} : {}
 
+export default {
+  ...routerBase
+}
 module.exports = {
   mode: 'universal',
 
@@ -18,10 +26,6 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
-  router: {
-    base: '/ETSParcours/'
-  },
-
 
   /*
   ** Customize the progress-bar color
