@@ -1,15 +1,9 @@
 const pkg = require('./package')
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/ETSParcours/'
-  }
-} : {}
-
-export default {
-  ...routerBase
-}
 module.exports = {
   mode: 'universal',
+  router: {
+    base: '/ETSParcours/'
+  },
 
   /*
   ** Headers of the page
