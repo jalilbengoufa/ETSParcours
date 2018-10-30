@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{160:function(t,e,o){"use strict";o.r(e);var n=o(20),r=Object(n.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("v-layout",[e("v-flex",{attrs:{"text-xs-center":""}},[e("p",[this._v(" brrroooooo")])])],1)},[],!1,null,null,null);r.options.__file="generator.vue";e.default=r.exports}}]);

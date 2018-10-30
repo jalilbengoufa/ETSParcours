@@ -1,8 +1,12 @@
 const pkg = require('./package')
-export default {
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/ETSParcours/'
   }
+} : {}
+
+export default {
+  ...routerBase
 }
 module.exports = {
   mode: 'universal',
