@@ -3,16 +3,50 @@
     column
     justify-center
     align-center>
+    
     <v-flex
       xs12
       sm8
       md6>
+      <v-card>
+             <v-card-title>
+          <div>
+            <span class="red--text">Legende:</span><br>
+            <span>J:  Le cours est disponible Jour seulement</span><br>
+            <span>S:  Le cours est disponible le soir seulement</span><br>
+            <span>JS:  Le cours est disponible jour et soir</span><br>
+            <span>*:  La disponibilité n'est pas assuré</span><br>
+          </div>
+        </v-card-title>
+          </v-card>
       <div class="text-xs-center">
+           <v-container fluid>
+    <v-layout row wrap align-center>
+      <v-flex xs6>
+        <v-subheader>Choisir le programmme pour voir la liste des cours</v-subheader>
+      </v-flex>
+
+      <v-flex xs6>
+        <v-select
+          v-model="select"
+          :hint="`${select.programme}, ${select.abbr}`"
+          :items="items"
+          item-text="programme"
+          item-value="abbr"
+          label="Select"
+          persistent-hint
+          return-object
+          single-line
+          v-on:change="updateTable"
+        ></v-select>
+      </v-flex>
+    </v-layout>
+  </v-container>
         <v-data-table
             :headers="headers"
-            :items="courses"
+            :items="shownCourses"
+            hide-actions
             class="elevation-1"
-            
           >
             <template slot="headerCell" slot-scope="props">
               <v-tooltip bottom>
@@ -46,6 +80,17 @@ export default {
   components: {},
   data() {
     return {
+        select: { programme: 'Cours Généraux', abbr: 'SEG' },
+        items: [
+          { programme: 'Cours Généraux', abbr: 'SEG'},
+          { programme: 'Génie logiciel et TI', abbr: 'LOGTI'},
+          { programme: 'Génie Électrique', abbr: 'ELE'},
+          { programme: 'Génie Mecanique', abbr: 'MEC'},
+          { programme: 'Génie des opérations logistique', abbr: 'GOL'},
+          { programme: 'Génie de la prodution automatisée', abbr: 'GPA'},
+          { programme: 'Génie de la constructions', abbr: 'CTN'}
+
+        ],
       headers: [
         {
           text: "Cours",
@@ -55,481 +100,29 @@ export default {
         },
         { text: "Sigle", value: "sigle" },
         { text: "Hiver 2019", value: "session1" },
-        { text: "Ete 2019", value: "session2" },
+        { text: "Été 2019", value: "session2" },
         { text: "Automne 2019", value: "session3" },
         { text: "Hiver 2020", value: "session4" },
-        { text: "Ete 2020", value: "session5" }
+        { text: "Été 2020", value: "session5" }
       ],
-      courses: [
-    {
-        "sigle": "ELE104",
-        "name": "Principes fondamentaux des circuits électriques",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE105",
-        "name": "Circuits électriques",
-        "session1": "JS",
-        "session2": "JS",
-        "session3": "J",
-        "session4": "JS",
-        "session5": "JS"
-    },
-    {
-        "sigle": "ELE116",
-        "name": "Environnement de développement de logiciels",
-        "session1": "S",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE140",
-        "name": "Conception des systèmes numériques",
-        "session1": "J",
-        "session2": "J",
-        "session3": "JS",
-        "session4": "J",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE200",
-        "name": "Circuits électroniques",
-        "session1": "J",
-        "session2": "J",
-        "session3": "JS",
-        "session4": "J",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE275",
-        "name": "Asservissements linéaires",
-        "session1": "JS",
-        "session2": "JS",
-        "session3": "J",
-        "session4": "JS",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE312",
-        "name": "Électromagnétisme",
-        "session1": "JS",
-        "session2": "JS",
-        "session3": "JS",
-        "session4": "JS",
-        "session5": "JS"
-    },
-    {
-        "sigle": "ELE344",
-        "name": "Conception et architecture de processeurs (Ancien ELE 343 à partir H19)",
-        "session1": "JS",
-        "session2": "JS",
-        "session3": "JS",
-        "session4": "JS",
-        "session5": "JS"
-    },
-    {
-        "sigle": "ELE355",
-        "name": "Électronique de puissance I",
-        "session1": "S",
-        "session2": "J",
-        "session3": "J",
-        "session4": "S",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE400",
-        "name": "Méthode de design en génie électrique",
-        "session1": "JS",
-        "session2": "S",
-        "session3": "J",
-        "session4": "JS",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE413",
-        "name": "Ondes électromagnétiques(Ancien ELE 412 à partir H19)",
-        "session1": "J",
-        "session2": "S",
-        "session3": "JS",
-        "session4": "JS",
-        "session5": "JS"
-    },
-    {
-        "sigle": "ELE431",
-        "name": "Analyse et conception de circuits analogiques (Ancien ELE 430 à partir H19)",
-        "session1": "JS",
-        "session2": "J",
-        "session3": "J",
-        "session4": "JS",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE440",
-        "name": "Algorithmes",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE452",
-        "name": "Principes des systèmes de l'aéronautique",
-        "session1": "",
-        "session2": "S",
-        "session3": "",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE462",
-        "name": "Principes des systèmes de communication",
-        "session1": "J",
-        "session2": "JS",
-        "session3": "J",
-        "session4": "J",
-        "session5": "JS"
-    },
-    {
-        "sigle": "ELE474",
-        "name": "Commande numérique (Ancien ELE 472 à partir H19)",
-        "session1": "J",
-        "session2": "S",
-        "session3": "JS",
-        "session4": "J",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE543",
-        "name": "Principes des systèmes embarqués(Ancien ELE 542 à partir H19)",
-        "session1": "J",
-        "session2": "S",
-        "session3": "S",
-        "session4": "J",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE550",
-        "name": "Machines électriques",
-        "session1": "J",
-        "session2": "",
-        "session3": "S",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE641",
-        "name": "Systèmes embarqués et normes en aérospatiale",
-        "session1": "",
-        "session2": "",
-        "session3": "S",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE649",
-        "name": "Protocoles et réseaux locaux",
-        "session1": "",
-        "session2": "",
-        "session3": "S",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE652",
-        "name": "Électricité industrielle",
-        "session1": "",
-        "session2": "J",
-        "session3": "",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE653",
-        "name": "Transport de l'énergie",
-        "session1": "J",
-        "session2": "S",
-        "session3": "",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE654",
-        "name": "Électronique de puissance II",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE656",
-        "name": "Asservissement des machines électriques",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE664",
-        "name": "Communication numérique",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE666",
-        "name": "Traitement numérique des signaux",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE667",
-        "name": "Hyperfréquences I",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE672",
-        "name": "Systèmes non linéaires",
-        "session1": "S",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE673",
-        "name": "Instrumentation industrielle",
-        "session1": "S",
-        "session2": "",
-        "session3": "",
-        "session4": "S",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE674",
-        "name": "Systèmes embarqués avancés",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE682",
-        "name": "Conception de systèmes numériques à haute vitesse(Ancien ELE 680 à partir H19)",
-        "session1": "S",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE704",
-        "name": "Systèmes de commande de vol Fly-by-wire",
-        "session1": "",
-        "session2": "",
-        "session3": "",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE732",
-        "name": "Traitement parallèle par systèmes ordinés",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE735",
-        "name": "Analyse numérique",
-        "session1": "",
-        "session2": "S",
-        "session3": "J",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE739",
-        "name": "Circuits intégrés programmables (FPGA)(Ancien ELE 740 à partir H19)",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE746",
-        "name": "Téléinformatique",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE747",
-        "name": "Analyse et traitement d'images",
-        "session1": "J",
-        "session2": "J",
-        "session3": "",
-        "session4": "S",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE749",
-        "name": "Conception conjointe matériel – logiciel de systèmes numériques(Ancien ELE 748 à partir H19)",
-        "session1": "",
-        "session2": "S",
-        "session3": "",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE751",
-        "name": "Systèmes de navigation embarqués",
-        "session1": "",
-        "session2": "",
-        "session3": "",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE752",
-        "name": "Appareillage électrique",
-        "session1": "",
-        "session2": "",
-        "session3": "S",
-        "session4": "",
-        "session5": "S"
-    },
-    {
-        "sigle": "ELE767",
-        "name": "Apprentissage machine en intelligence artificielle(Ancien ELE 778 à partir H19)",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE771",
-        "name": "Dispositifs photoniques",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE772",
-        "name": "Communications optiques",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE773",
-        "name": "Éléments de robotique",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE777",
-        "name": "Modélisation et identification des systèmes dynamiques",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE784",
-        "name": "Ordinateurs et programmation systèmes",
-        "session1": "",
-        "session2": "",
-        "session3": "J",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE785",
-        "name": "Systèmes de communi cation sans fil",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE787",
-        "name": "Systèmes de transmission",
-        "session1": "",
-        "session2": "",
-        "session3": "",
-        "session4": "",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE788",
-        "name": "Circuits et antennes micro-ondes",
-        "session1": "J",
-        "session2": "",
-        "session3": "",
-        "session4": "J",
-        "session5": ""
-    },
-    {
-        "sigle": "ELE791",
-        "name": "Projets spéciaux",
-        "session1": "J",
-        "session2": "J",
-        "session3": "J",
-        "session4": "J",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE795",
-        "name": "Projet de fin d'études en génie électrique(ancien ELE792) à paritr H17",
-        "session1": "J",
-        "session2": "J",
-        "session3": "J",
-        "session4": "J",
-        "session5": "J"
-    },
-    {
-        "sigle": "ELE889",
-        "name": "Technologies de l'énergie photovoltaïque",
-        "session1": "J",
-        "session2": "S",
-        "session3": "",
-        "session4": "J",
-        "session5": "S"
-    }
-]
+      shownCourses: [],
+      logCourses: [],
+      eleCourses: [],
+      segCourses: [],
+      mecCourses: [],
+      golCourses: [],
+      ctnCourses: [],
+      gpaCourses: [],
+      links :{ 
+          LOG: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/LOG.json',
+          SEG: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/SEG.json',
+          ELE: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/ELE.json',
+          MEC: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/MEC.json',
+          GPA: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/GPA.json',
+          GOL: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/GOL.json',
+          CTN: 'https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/CTN.json',
+    
+        }
     };
   },
   async created() {
@@ -539,16 +132,83 @@ export default {
   methods: {
     
     async getCourses(self){
-        
-       /*return axios.get(`https://github.com/jalilbengoufa/ETSParcours/blob/master/json_files/SEG.json`)
-    
+       return axios.get(self.links.SEG)
           .then((res) => {
-            console.log(res.data)
-          return { title: res.data.title }
-       })*/
-        
+            self.shownCourses = res.data
+            self.segCourses = res.data
+       });
+    },
+    updateTable(source){
+        var self = this;
+        if(source.abbr == 'SEG'){
+            self.shownCourses = self.segCourses
+        }
+        if(source.abbr == 'LOGTI'){
+            if(self.logCourses.length == 0){
+                axios.get(self.links.LOG)
+                    .then((res) => {
+                    self.logCourses = res.data;
+                });
+            }else{
+                self.shownCourses = self.logCourses
+            }  
+        }
+        if(source.abbr == 'ELE'){
+            if(self.eleCourses.length == 0){
+                 axios.get(self.links.ELE)
+                .then((res) => {
+                    self.eleCourses = res.data;
+                    self.shownCourses = res.data;
+                });
+             }else{
+                self.shownCourses = self.eleCourses
+             }
+        }
+        if(source.abbr == 'MEC'){
+            if(self.mecCourses.length == 0){
+                 axios.get(self.links.MEC)
+                .then((res) => {
+                    self.mecCourses = res.data;
+                    self.shownCourses = res.data;
+                });
+             }else{
+                self.shownCourses = self.mecCourses
+             }
+        }
+        if(source.abbr == 'CTN'){
+            if(self.ctnCourses.length == 0){
+                 axios.get(self.links.CTN)
+                .then((res) => {
+                    self.ctnCourses = res.data;
+                    self.shownCourses = res.data;
+                });
+             }else{
+                self.shownCourses = self.ctnCourses
+             }
+        }
+        if(source.abbr == 'GPA'){
+            if(self.gpaCourses.length == 0){
+                 axios.get(self.links.GPA)
+                .then((res) => {
+                    self.gpaCourses = res.data;
+                    self.shownCourses = res.data;
+                });
+             }else{
+                self.shownCourses = self.gpaCourses
+             }
+        }
+        if(source.abbr == 'GOL'){
+            if(self.golCourses.length == 0){
+                 axios.get(self.links.GOL)
+                .then((res) => {
+                    self.golCourses = res.data;
+                    self.shownCourses = res.data;
+                });
+             }else{
+                self.shownCourses = self.golCourses
+             }
+        }
     }
-
   }
 
 };
